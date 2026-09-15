@@ -52,7 +52,7 @@ app.post("/create-order", async (req, res) => {
       Math.floor(Math.random() * 100000);
 
     const response = await fetch(
-      "https://sandbox.cashfree.com/pg/orders",
+      "https://api.cashfree.com/pg/orders",
       {
         method: "POST",
         headers: {
